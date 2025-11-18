@@ -1,8 +1,8 @@
 #1 git clone으로 실습용 코드를 다운로드 합니다.
-git clone https://github.com/garlicKim21/miribit_k8s_study.git
+git clone https://github.com/garlicKim21/miribit-k8s-study.git
 
 #2 실습용 코드가 있는 디렉토리로 이동합니다.
-cd miribit_k8s_study/01-kubeadm
+cd miribit-k8s-study/01-kubeadm
 
 #3 k8s-node.txt 파일을 확인합니다.
 cat k8s-nodes.txt

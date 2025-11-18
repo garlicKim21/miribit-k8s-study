@@ -24,8 +24,8 @@ cp -r sample kubeclass
 cd kubeclass
 
 #5 inventory.ini 파일과 custom.yml 파일을 현재 위치로 복사
-cp ~/miribit_k8s_study/02-kubespray/inventory.ini .
-cp ~/miribit_k8s_study/02-kubespray/custom.yml .
+cp ~/miribit-k8s-study/02-kubespray/inventory.ini .
+cp ~/miribit-k8s-study/02-kubespray/custom.yml .
 
 #6 inventory.ini 파일을 확인
 cat inventory.ini
