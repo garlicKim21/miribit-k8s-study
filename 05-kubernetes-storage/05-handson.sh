@@ -93,9 +93,7 @@ kubectl apply -f pvc-other-pod.yaml
 kubectl get pods,pvc -o wide
 
 curl $(kubectl get pod pvc-other-pod -o jsonpath='{.status.podIP}{"\n"}')
-kubectl exec -it pvc-other-pod -- /bin/bash
-cat /usr/share/nginx/html/index.html
-exit
+kubectl exec -it pvc-other-pod -- cat /usr/share/nginx/html/index.html
 
 kubectl delete -f pvc-other-pod.yaml
 kubectl delete -f pvc.yaml
