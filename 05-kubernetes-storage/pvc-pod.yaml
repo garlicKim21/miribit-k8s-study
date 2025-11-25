@@ -7,7 +7,7 @@ spec:
     - name: myfrontend
       image: nginx
       volumeMounts:
-      - mountPath: "/var/www/html"
+      - mountPath: "/usr/share/nginx/html"
         name: pvc-vol
   volumes:
     - name: pvc-vol

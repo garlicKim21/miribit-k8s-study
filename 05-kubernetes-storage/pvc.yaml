@@ -4,7 +4,7 @@ kind: PersistentVolumeClaim
 metadata:
   name: test-pvc
 spec:
-  storageClassName: standard
+  storageClassName: local-path
   accessModes:
     - ReadWriteOnce
   resources:
